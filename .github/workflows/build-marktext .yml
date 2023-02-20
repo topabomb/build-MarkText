@@ -13,7 +13,8 @@ on:
   workflow_dispatch:
   schedule:
     # https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
-    - cron: "0 0 * * *"
+    # 每月更新1日更新一次
+    - cron: "0 0 1 * *"
 
   
 env:
