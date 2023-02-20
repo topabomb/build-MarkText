@@ -37,7 +37,7 @@ jobs:
       - name: Check out Git repository
         uses: actions/checkout@v3
         with:
-         repository: 'marktext/marktext' 
+         repository: 'topabomb/marktext-specialedition' 
       
       - name: Get latest commit
         shell: pwsh
